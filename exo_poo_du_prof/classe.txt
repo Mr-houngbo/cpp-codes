@@ -1,0 +1,94 @@
+
+
+
+
+
+				REPONSES AUX QUESTIONS       
+
+
+
+
+1-   La limitation de choix d'attributs d'une entite s'appelle "L'abstraction" 
+
+2-	Un objet est la donnée de :
+ Une identité
+ Des attributs (définissant son état)
+ Des méthodes (programmes gérant son comportement)
+
+ Une classe est constituée :
+	de variables, ici appelées attributs (on parle aussi de variables membres) 
+	de fonctions, ici appelées méthodes (on parle aussi de fonctions membres).
+ Une instance d'une classe est un objet defini a partir de  la classe 
+
+3-Voir code
+
+4-Une méthode qui permet de créer une instance d’un objet est appelee  CONSTRUCTEUR.
+	C'est une méthode qui sert à construire l'objet
+    l’identifiant d’une telle méthode porte le nom de la classe
+    Cette méthode ne renvoie pas de résultat parcequ'elle est appelee par defaut lors de la CREATION D'UN OBJET 
+ 	,d'une instance de la classe
+
+5-Un Constructeur par défaut d’une classe est le constructeur qui ne prend pas de parametres (pas surcharge) .
+  Il peut être utile pour initialiser les attributs .
+
+6-Convention pour représenter un individu inconnu d’un des quatre type d’individus de l’exercice
+	Un individu sera represente par :
+	Attributs
+		Nom
+		Prénom
+		Age
+		Sexe
+		Lieu de naissance
+		Numéro de téléphone
+	Methodes
+		Manger
+		afficher
+		toString
+		dormir.
+
+7-	Un constructeur par copie d’une classe :
+		C'est une surcharge du constructeur qui initialise notre
+		objet en copiant les valeurs des attributs de l'autre objet.
+		Le compilateur créait automatiquement
+		l’emploi de ce type de constructeur est délicat et déconseillé parcequ'on accède 
+		 directement aux attributs de l'objet à copier c'est meme pourquoi il est conseille de passer par reference constante.
+		 Tant que la classe n'utilise pas de pointeurs vers des attributs, il n'y a pas de danger donc le danger se trouve 
+		 lors de l'utilisation de pointeurs vers des attributs.
+
+8-Une méthode qui a été définie plusieurs fois dans une classe, 
+	mais avec des signatures différentes est une methode de la classe sur la classe , c'est la surcharge de methode.
+	Cela permet de créer un objet de plusieurs façons différentes,rendre flexible et simple l'utilisation des méthodes
+
+9-Voir code
+
+10-	Le destructeur est une méthode appelée lorsque l'objet est supprimé de la mémoire. Son principal rôle est
+	 de désallouer  la mémoire (via des delete) qui a été allouée dynamiquement .
+	 On n'a besoin que d'un seul destructeur car le destructeur detruit toute la classe.
+
+11-Voir code
+
+12-Voir code
+
+13-Il est nécessaire de détruire soit même un objet qu’on a crée dynamiquement pour liberer de la memoire et 
+	eviter les fuites de memoire.
+
+14-	Oui on obtient le même résultat
+
+15-L’emploi de constructeur avec liste d’initialisation généralise la définition de plusieurs constructeurs 
+	 pour une classe en ce sens que lorsque certains attributs ne seront pas
+	indiqués ils sont automatiquement choisis.
+	Ce faisant, on peut avoir de plusieurs signatures de constructeurs en
+	faisant varier la liste des paramètres du constructeur.
+
+16-Lorsqu’on commente la ligne 7 du programme tout passe en private.
+	Ainsi, on ne peut pas accéder directement aux attributs depuis le
+	main
+
+17-Voir code
+
+18-
+
+
+19- C'est le mecanisme d'heritage
+
+20-Voir code
